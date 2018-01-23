@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/db.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/krshubhof/review-webapp/issues"
   },
-  "homepage": "https://github.com/krshubhof/review-webapp#readme"
+  "homepage": "https://github.com/krshubhof/review-webapp#readme",
+  "dependencies": {
+    "mongoose": "^5.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
 }
