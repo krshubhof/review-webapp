@@ -1,23 +1,18 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+  <v-app dark>
+   <v-toolbar>
+     <v-toolbar-title>ReviewApp</v-toolbar-title>
+     <v-toolbar-items>
+       <v-btn>LogIn</v-btn>
+     </v-toolbar-items>
+   </v-toolbar>
+  </v-app>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  data(){
+    return 'hello'
+  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
