@@ -19,7 +19,8 @@
   "homepage": "https://github.com/krshubhof/review-webapp#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "mongoose": "^5.0.1"
+    "mongoose": "^5.0.1",
+    "vue-cli": "^2.9.2"
   },
   "devDependencies": {
     "chai": "^4.1.2",
