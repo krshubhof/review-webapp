@@ -1,4 +1,4 @@
-
+const change = require('../change.js')
 const User = require('../schema/user')
 const Movie = require('../schema/movie')
 const Review = require('../schema/review')
@@ -52,6 +52,10 @@ describe('should check user valid email', async () =>{
         })
         this.review = await review.save() 
         this.review.userId.should.eql(this.res._id)
+    })
+
+    it('should populate movie', async () =>{
+        change()
     })
 
     after(()=>{

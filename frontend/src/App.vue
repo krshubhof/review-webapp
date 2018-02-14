@@ -1,18 +1,16 @@
 <template>
   <div>
-  <Navbar></Navbar>
-  <Sidebar></Sidebar>
+    <Navbar></Navbar>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
-import Sidebar from './components/Sidebar'
 
 export default {
   name: 'App',
   components: {
-    Navbar, Sidebar
+    Navbar
   }
 }
 </script>
