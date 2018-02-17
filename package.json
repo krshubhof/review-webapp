@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha **/db.test.js",
-    "start": "node ./backend/server.js"
+    "start": "node ./backend/server.js",
+    "watch":"nodemon ./backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/krshubhof/review-webapp#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongoose": "^5.0.1",
     "vue-cli": "^2.9.2"
